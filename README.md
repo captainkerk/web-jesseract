@@ -1,0 +1,1 @@
+A web service for converting images to text based on the jesseract wrapper.
