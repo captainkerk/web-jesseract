@@ -4,7 +4,7 @@
 		module="hello-play_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20131129162042"
+		publication="20131203211624"
 	>
 		<description>
 		hello-play

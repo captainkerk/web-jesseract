@@ -12,3 +12,12 @@
 <test.MessageControllerSpec-stats timestamp="1385834745694"><stats time="238" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
 <test.MessageControllerSpec-stats timestamp="1385835735208"><stats time="370" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
 <test.MessageControllerSpec-stats timestamp="1385866457091"><stats time="726" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1385935609710"><stats time="618" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1385935787472"><stats time="153" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1385951412192"><stats time="460" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386001569731"><stats time="379" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386007923844"><stats time="170" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386008054814"><stats time="297" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386012537846"><stats time="353" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386015141319"><stats time="828" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>
+<test.MessageControllerSpec-stats timestamp="1386019825370"><stats time="787" expectations="1" successes="1" examples="1"></stats></test.MessageControllerSpec-stats>

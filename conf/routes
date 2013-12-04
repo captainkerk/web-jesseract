@@ -2,7 +2,7 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                           controllers.MainController.index()
+GET     /                           controllers.MainController.mainPage()
 GET     /test                       controllers.MainController.test()
 POST    /upload                     controllers.MainController.uploadFile()
 GET     /message                    controllers.MessageController.getMessage()

@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/JFK/Desktop/hello-play/conf/routes
-// @HASH:41f5d3071da7ae0454bcd3f0342855fb2241f374
-// @DATE:Fri Nov 29 19:35:24 CST 2013
+// @HASH:12205b800734fbeb56bf0548952cbd418651fe38
+// @DATE:Mon Dec 02 15:33:21 CST 2013
 
 
 import play.core._
@@ -29,7 +29,7 @@ lazy val defaultPrefix = { if(Routes.prefix.endsWith("/")) "" else "/" }
 
 
 // @LINE:5
-private[this] lazy val controllers_MainController_index0 = Route("GET", PathPattern(List(StaticPart(Routes.prefix))))
+private[this] lazy val controllers_MainController_mainPage0 = Route("GET", PathPattern(List(StaticPart(Routes.prefix))))
         
 
 // @LINE:6
@@ -55,7 +55,7 @@ private[this] lazy val controllers_Assets_at5 = Route("GET", PathPattern(List(St
 // @LINE:13
 private[this] lazy val controllers_WebJarAssets_at6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("webjars/"),DynamicPart("file", """.+""",false))))
         
-def documentation = List(("""GET""", prefix,"""controllers.MainController.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """test""","""controllers.MainController.test()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload""","""controllers.MainController.uploadFile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """message""","""controllers.MessageController.getMessage()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/javascripts/routes""","""controllers.MessageController.javascriptRoutes()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """webjars/$file<.+>""","""controllers.WebJarAssets.at(file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.MainController.mainPage()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """test""","""controllers.MainController.test()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload""","""controllers.MainController.uploadFile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """message""","""controllers.MessageController.getMessage()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/javascripts/routes""","""controllers.MessageController.javascriptRoutes()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """webjars/$file<.+>""","""controllers.WebJarAssets.at(file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -64,9 +64,9 @@ def documentation = List(("""GET""", prefix,"""controllers.MainController.index(
 def routes:PartialFunction[RequestHeader,Handler] = {
 
 // @LINE:5
-case controllers_MainController_index0(params) => {
+case controllers_MainController_mainPage0(params) => {
    call { 
-        invokeHandler(controllers.MainController.index(), HandlerDef(this, "controllers.MainController", "index", Nil,"GET", """""", Routes.prefix + """"""))
+        invokeHandler(controllers.MainController.mainPage(), HandlerDef(this, "controllers.MainController", "mainPage", Nil,"GET", """""", Routes.prefix + """"""))
    }
 }
         

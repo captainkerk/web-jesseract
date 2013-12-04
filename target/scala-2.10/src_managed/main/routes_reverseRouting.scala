@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/JFK/Desktop/hello-play/conf/routes
-// @HASH:41f5d3071da7ae0454bcd3f0342855fb2241f374
-// @DATE:Fri Nov 29 19:35:24 CST 2013
+// @HASH:12205b800734fbeb56bf0548952cbd418651fe38
+// @DATE:Mon Dec 02 15:33:21 CST 2013
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -62,7 +62,7 @@ class ReverseMainController {
     
 
 // @LINE:5
-def index(): Call = {
+def mainPage(): Call = {
    Call("GET", _prefix)
 }
                                                 
@@ -162,8 +162,8 @@ class ReverseMainController {
     
 
 // @LINE:5
-def index : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.MainController.index",
+def mainPage : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.MainController.mainPage",
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + """"})
@@ -268,8 +268,8 @@ class ReverseMainController {
     
 
 // @LINE:5
-def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.MainController.index(), HandlerDef(this, "controllers.MainController", "index", Seq(), "GET", """""", _prefix + """""")
+def mainPage(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.MainController.mainPage(), HandlerDef(this, "controllers.MainController", "mainPage", Seq(), "GET", """""", _prefix + """""")
 )
                       
 

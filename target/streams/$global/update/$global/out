@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#hello-play_2.10;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@732d1cb5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5df91314
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
@@ -5764,78 +5764,38 @@
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#trace-play-2.2.0;1.3.1 [atmos-trace-compile->default(compile)]
 [info] Resolving com.typesafe.atmos#trace-play-2.2.0;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-play-2.2.0;1.3.1 {atmos-trace-compile=[default(compile)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\trace-play-2.2.0\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#trace-play-2.2.0;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#trace-play-2.2.0;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#trace-play-2.2.0;1.3.1!ivy.xml(ivy.original) (16ms)
-[debug] 	found com.typesafe.atmos#trace-play-2.2.0;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#trace-play-2.2.0;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#trace-play-2.2.0;1.3.1
+[debug] 	found com.typesafe.atmos#trace-play-2.2.0;1.3.1 in sbt-chain
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#trace-play-2.2.0;1.3.1 [atmos-trace-compile->runtime]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#trace-play-2.2.0;1.3.1 [atmos-trace-compile->compile]
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-2.2.0;1.3.1->com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 [compile->master(*)]
 [info] Resolving com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\trace-akka-2.2.1_2.10\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!ivy.xml(ivy.original) (20ms)
-[debug] 	found com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1
+[debug] 	found com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-2.2.0;1.3.1->com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.atmos#trace-scala-2.10.2;1.3.1 [compile->master(*)]
 [info] Resolving com.typesafe.atmos#trace-scala-2.10.2;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-scala-2.10.2;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\trace-scala-2.10.2\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#trace-scala-2.10.2;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#trace-scala-2.10.2;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!ivy.xml(ivy.original) (39ms)
-[debug] 	found com.typesafe.atmos#trace-scala-2.10.2;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#trace-scala-2.10.2;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#trace-scala-2.10.2;1.3.1
+[debug] 	found com.typesafe.atmos#trace-scala-2.10.2;1.3.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.atmos#trace-scala-2.10.2;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->com.typesafe.atmos#atmos-trace_2.10;1.3.1 [compile->master(*)]
 [info] Resolving com.typesafe.atmos#atmos-trace_2.10;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-trace_2.10;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\atmos-trace_2.10\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#atmos-trace_2.10;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#atmos-trace_2.10;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-trace_2.10;1.3.1!ivy.xml(ivy.original) (15ms)
-[debug] 	found com.typesafe.atmos#atmos-trace_2.10;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#atmos-trace_2.10;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#atmos-trace_2.10;1.3.1
+[debug] 	found com.typesafe.atmos#atmos-trace_2.10;1.3.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->com.typesafe.atmos#atmos-trace_2.10;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->com.typesafe.atmos#atmos-event_2.10;1.3.1 [compile->master(*)]
 [info] Resolving com.typesafe.atmos#atmos-event_2.10;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-event_2.10;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\atmos-event_2.10\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#atmos-event_2.10;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#atmos-event_2.10;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-event_2.10;1.3.1!ivy.xml(ivy.original) (12ms)
-[debug] 	found com.typesafe.atmos#atmos-event_2.10;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#atmos-event_2.10;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#atmos-event_2.10;1.3.1
+[debug] 	found com.typesafe.atmos#atmos-event_2.10;1.3.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->com.typesafe.atmos#atmos-event_2.10;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
@@ -5844,17 +5804,9 @@
 [debug] == resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)]
 [info] Resolving com.google.protobuf#protobuf-java;2.4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.google.protobuf\protobuf-java\2.4.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.google.protobuf#protobuf-java;2.4.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.google.protobuf#protobuf-java;2.4.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml (2.4.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!ivy.xml(ivy.original) (15ms)
-[debug] 	found com.google.protobuf#protobuf-java;2.4.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.4.1
+[debug] 	local: revision in cache: com.google.protobuf#protobuf-java;2.4.1
+[debug] 	found com.google.protobuf#protobuf-java;2.4.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#atmos-event_2.10;1.3.1->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.atmos#atmos-trace_2.10;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
@@ -5863,17 +5815,9 @@
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->master(*)]
 [info] Resolving org.aspectj#aspectjrt;1.7.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.aspectj#aspectjrt;1.7.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\org.aspectj\aspectjrt\1.7.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.aspectj#aspectjrt;1.7.3
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml
-[debug] 	activator-local: found md file for org.aspectj#aspectjrt;1.7.3
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml (1.7.3)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.aspectj#aspectjrt;1.7.3!ivy.xml(ivy.original) (14ms)
-[debug] 	found org.aspectj#aspectjrt;1.7.3 in activator-local
+[debug] sbt-chain: module revision found in cache: org.aspectj#aspectjrt;1.7.3
+[debug] 	local: revision in cache: org.aspectj#aspectjrt;1.7.3
+[debug] 	found org.aspectj#aspectjrt;1.7.3 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->runtime(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-scala-2.10.2;1.3.1->org.aspectj#aspectjrt;1.7.3 [compile->compile]
@@ -5884,17 +5828,9 @@
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.akka\akka-actor_2.10\2.2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.10;2.2.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.akka#akka-actor_2.10;2.2.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml (2.2.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.2.1!ivy.xml(ivy.original) (12ms)
-[debug] 	found com.typesafe.akka#akka-actor_2.10;2.2.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.1
+[debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.1
+[debug] 	found com.typesafe.akka#akka-actor_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
@@ -5909,17 +5845,9 @@
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->master(*)]
 [info] Resolving com.typesafe.akka#akka-remote_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.akka\akka-remote_2.10\2.2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-remote_2.10;2.2.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.akka#akka-remote_2.10;2.2.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml (2.2.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.2.1!ivy.xml(ivy.original) (14ms)
-[debug] 	found com.typesafe.akka#akka-remote_2.10;2.2.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.2.1
+[debug] 	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.2.1
+[debug] 	found com.typesafe.akka#akka-remote_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-remote_2.10;2.2.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->compile(*)]
@@ -5934,34 +5862,18 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
 [debug] sbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\org.uncommons.maths\uncommons-maths\1.2.2a\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.uncommons.maths#uncommons-maths;1.2.2a
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
-[debug] 	activator-local: found md file for org.uncommons.maths#uncommons-maths;1.2.2a
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml (1.2.2a)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!ivy.xml(ivy.original) (15ms)
-[debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in activator-local
+[debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a
+[debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.10;2.2.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-slf4j_2.10;2.2.1 [compile->master(*)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.10;2.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.akka\akka-slf4j_2.10\2.2.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-slf4j_2.10;2.2.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.akka#akka-slf4j_2.10;2.2.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml (2.2.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.10;2.2.1!ivy.xml(ivy.original) (15ms)
-[debug] 	found com.typesafe.akka#akka-slf4j_2.10;2.2.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.1
+[debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.1
+[debug] 	found com.typesafe.akka#akka-slf4j_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->com.typesafe.akka#akka-slf4j_2.10;2.2.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-slf4j_2.10;2.2.1->com.typesafe.akka#akka-actor_2.10;2.2.1 [compile->compile(*)]
@@ -5983,32 +5895,16 @@
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->org.fusesource#sigar;1.6.4 [compile->master(*)]
 [info] Resolving org.fusesource#sigar;1.6.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource#sigar;1.6.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\org.fusesource\sigar\1.6.4\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.fusesource#sigar;1.6.4
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml
-[debug] 	activator-local: found md file for org.fusesource#sigar;1.6.4
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml (1.6.4)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.fusesource#sigar;1.6.4!ivy.xml(ivy.original) (17ms)
-[debug] 	found org.fusesource#sigar;1.6.4 in activator-local
+[debug] sbt-chain: module revision found in cache: org.fusesource#sigar;1.6.4
+[debug] 	local: revision in cache: org.fusesource#sigar;1.6.4
+[debug] 	found org.fusesource#sigar;1.6.4 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1->org.fusesource#sigar;1.6.4 [compile->compile(*)]
 [debug] == resolving dependencies org.fusesource#sigar;1.6.4->log4j#log4j;1.2.15 [compile->master(*)]
 [info] Resolving log4j#log4j;1.2.15 ...
 [debug] sbt-chain: Checking cache for: dependency: log4j#log4j;1.2.15 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\log4j\log4j\1.2.15\ivys\ivy.xml
-[debug] 	local: no ivy file found for log4j#log4j;1.2.15
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml
-[debug] 	activator-local: found md file for log4j#log4j;1.2.15
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml (1.2.15)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] log4j#log4j;1.2.15!ivy.xml(ivy.original) (16ms)
-[debug] 	found log4j#log4j;1.2.15 in activator-local
+[debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.15
+[debug] 	local: revision in cache: log4j#log4j;1.2.15
+[debug] 	found log4j#log4j;1.2.15 in sbt-chain
 [debug] == resolving dependencies org.fusesource#sigar;1.6.4->log4j#log4j;1.2.15 [compile->compile(*)]
 [debug] excluding dependency: javax.mail#mail;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
 [debug] excluding dependency: javax.jms#jms;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
@@ -6068,17 +5964,9 @@
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-2.2.0;1.3.1->com.typesafe.atmos#trace-play-common;1.3.1 [compile->master(*)]
 [info] Resolving com.typesafe.atmos#trace-play-common;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-play-common;1.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\trace-play-common\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#trace-play-common;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#trace-play-common;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#trace-play-common;1.3.1!ivy.xml(ivy.original) (15ms)
-[debug] 	found com.typesafe.atmos#trace-play-common;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#trace-play-common;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#trace-play-common;1.3.1
+[debug] 	found com.typesafe.atmos#trace-play-common;1.3.1 in sbt-chain
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-2.2.0;1.3.1->com.typesafe.atmos#trace-play-common;1.3.1 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-common;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies com.typesafe.atmos#trace-play-common;1.3.1->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
@@ -7517,17 +7405,9 @@
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->default(compile)]
 [info] Resolving com.typesafe.atmos#atmos-dev;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-dev;1.3.1 {atmos-dev=[default(compile)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\atmos-dev\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#atmos-dev;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#atmos-dev;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-dev;1.3.1!ivy.xml(ivy.original) (13ms)
-[debug] 	found com.typesafe.atmos#atmos-dev;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#atmos-dev;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#atmos-dev;1.3.1
+[debug] 	found com.typesafe.atmos#atmos-dev;1.3.1 in sbt-chain
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->runtime]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->compile]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-dev;1.3.1 [atmos-dev->master]
@@ -7536,17 +7416,9 @@
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.console#console-solo;1.3.1 [atmos-console->default(compile)]
 [info] Resolving com.typesafe.console#console-solo;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.console#console-solo;1.3.1 {atmos-console=[default(compile)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.console\console-solo\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.console#console-solo;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.console#console-solo;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.console#console-solo;1.3.1!ivy.xml(ivy.original) (16ms)
-[debug] 	found com.typesafe.console#console-solo;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.console#console-solo;1.3.1
+[debug] 	local: revision in cache: com.typesafe.console#console-solo;1.3.1
+[debug] 	found com.typesafe.console#console-solo;1.3.1 in sbt-chain
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.console#console-solo;1.3.1 [atmos-console->runtime]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.console#console-solo;1.3.1 [atmos-console->compile]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.console#console-solo;1.3.1 [atmos-console->master]
@@ -7555,17 +7427,9 @@
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->default(compile)]
 [info] Resolving org.aspectj#aspectjweaver;1.7.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.aspectj#aspectjweaver;1.7.3 {atmos-weave=[default(compile)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\org.aspectj\aspectjweaver\1.7.3\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.aspectj#aspectjweaver;1.7.3
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml
-[debug] 	activator-local: found md file for org.aspectj#aspectjweaver;1.7.3
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml (1.7.3)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.aspectj#aspectjweaver;1.7.3!ivy.xml(ivy.original) (17ms)
-[debug] 	found org.aspectj#aspectjweaver;1.7.3 in activator-local
+[debug] sbt-chain: module revision found in cache: org.aspectj#aspectjweaver;1.7.3
+[debug] 	local: revision in cache: org.aspectj#aspectjweaver;1.7.3
+[debug] 	found org.aspectj#aspectjweaver;1.7.3 in sbt-chain
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->runtime]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->compile]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->org.aspectj#aspectjweaver;1.7.3 [atmos-weave->master]
@@ -7574,17 +7438,9 @@
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->default(compile)]
 [info] Resolving com.typesafe.atmos#atmos-sigar-libs;1.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.atmos#atmos-sigar-libs;1.3.1 {atmos-sigar=[default(compile)]}
-[debug] 		tried C:\Users\JFK\.ivy2\local\com.typesafe.atmos\atmos-sigar-libs\1.3.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.atmos#atmos-sigar-libs;1.3.1
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: found md file for com.typesafe.atmos#atmos-sigar-libs;1.3.1
-[debug] 		=> file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml (1.3.1)
-[debug] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-sigar-libs;1.3.1!ivy.xml(ivy.original) (18ms)
-[debug] 	found com.typesafe.atmos#atmos-sigar-libs;1.3.1 in activator-local
+[debug] sbt-chain: module revision found in cache: com.typesafe.atmos#atmos-sigar-libs;1.3.1
+[debug] 	local: revision in cache: com.typesafe.atmos#atmos-sigar-libs;1.3.1
+[debug] 	found com.typesafe.atmos#atmos-sigar-libs;1.3.1 in sbt-chain
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->runtime]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->compile]
 [debug] == resolving dependencies default#hello-play_2.10;1.0-SNAPSHOT->com.typesafe.atmos#atmos-sigar-libs;1.3.1 [atmos-sigar->master]
@@ -7710,115 +7566,25 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/jars/trace-play-2.2.0.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/jars/trace-play-2.2.0.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/jars/trace-play-2.2.0.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/jars/trace-play-2.2.0.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-2.2.0/1.3.1/jars/trace-play-2.2.0.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#trace-play-2.2.0;1.3.1!trace-play-2.2.0.jar (22ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-akka-2.2.1_2.10/1.3.1/jars/trace-akka-2.2.1_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!trace-akka-2.2.1_2.10.jar (20ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/jars/trace-play-common.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/jars/trace-play-common.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/jars/trace-play-common.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/jars/trace-play-common.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-play-common/1.3.1/jars/trace-play-common.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#trace-play-common;1.3.1!trace-play-common.jar (25ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjrt/1.7.3/jars/aspectjrt.jar
-[info] 	[SUCCESSFUL ] org.aspectj#aspectjrt;1.7.3!aspectjrt.jar (22ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/trace-scala-2.10.2/1.3.1/jars/trace-scala-2.10.2.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!trace-scala-2.10.2.jar (60ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-actor_2.10/2.2.1/jars/akka-actor_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.2.1!akka-actor_2.10.jar (208ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-remote_2.10/2.2.1/bundles/akka-remote_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.2.1!akka-remote_2.10.jar(bundle) (121ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.akka/akka-slf4j_2.10/2.2.1/bundles/akka-slf4j_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.10;2.2.1!akka-slf4j_2.10.jar(bundle) (39ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.fusesource/sigar/1.6.4/jars/sigar.jar
-[info] 	[SUCCESSFUL ] org.fusesource#sigar;1.6.4!sigar.jar (22ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-trace_2.10/1.3.1/jars/atmos-trace_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-trace_2.10;1.3.1!atmos-trace_2.10.jar (19ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-event_2.10/1.3.1/jars/atmos-event_2.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-event_2.10;1.3.1!atmos-event_2.10.jar (110ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar
-[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar (29ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
-[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar (95ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/jars/log4j.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/jars/log4j.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/jars/log4j.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/jars/log4j.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/log4j/log4j/1.2.15/jars/log4j.jar
-[info] 	[SUCCESSFUL ] log4j#log4j;1.2.15!log4j.jar (52ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-dev/1.3.1/jars/atmos-dev.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-dev;1.3.1!atmos-dev.jar (482ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.console/console-solo/1.3.1/jars/console-solo.jar
-[info] 	[SUCCESSFUL ] com.typesafe.console#console-solo;1.3.1!console-solo.jar (560ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/org.aspectj/aspectjweaver/1.7.3/jars/aspectjweaver.jar
-[info] 	[SUCCESSFUL ] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar (172ms)
-[debug] 		tried file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar
-[info] downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar ...
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar
-[debug] 	activator-local: downloading file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar.sha1
-[debug] sha1 OK for file:/C:/installs/play/typesafe-activator-1.0.8/activator-1.0.8/repository/com.typesafe.atmos/atmos-sigar-libs/1.3.1/jars/atmos-sigar-libs.jar
-[info] 	[SUCCESSFUL ] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.jar (202ms)
-[debug] :: resolution report :: resolve 4536ms :: artifacts dl 2510ms
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#trace-play-2.2.0;1.3.1!trace-play-2.2.0.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#trace-akka-2.2.1_2.10;1.3.1!trace-akka-2.2.1_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#trace-play-common;1.3.1!trace-play-common.jar
+[debug] 	[NOT REQUIRED] org.aspectj#aspectjrt;1.7.3!aspectjrt.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#trace-scala-2.10.2;1.3.1!trace-scala-2.10.2.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2.1!akka-actor_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.1!akka-remote_2.10.jar(bundle)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.2.1!akka-slf4j_2.10.jar(bundle)
+[debug] 	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#atmos-trace_2.10;1.3.1!atmos-trace_2.10.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#atmos-event_2.10;1.3.1!atmos-event_2.10.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#atmos-dev;1.3.1!atmos-dev.jar
+[debug] 	[NOT REQUIRED] com.typesafe.console#console-solo;1.3.1!console-solo.jar
+[debug] 	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar
+[debug] 	[NOT REQUIRED] com.typesafe.atmos#atmos-sigar-libs;1.3.1!atmos-sigar-libs.jar
+[debug] :: resolution report :: resolve 4273ms :: artifacts dl 283ms
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT compile produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-compile.xml
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT runtime produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-runtime.xml
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT test produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-test.xml
@@ -7838,5 +7604,5 @@
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT atmos-console produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-atmos-console.xml
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT atmos-weave produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-atmos-weave.xml
 [debug] 	report for default#hello-play_2.10;1.0-SNAPSHOT atmos-sigar produced in C:\Users\JFK\Desktop\hello-play\target\resolution-cache\reports\default-hello-play_2.10-atmos-sigar.xml
-[debug] 	resolve done (4536ms resolve - 2510ms download)
+[debug] 	resolve done (4273ms resolve - 283ms download)
 [info] Done updating.
